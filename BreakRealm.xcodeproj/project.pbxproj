@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C0909F3908067FE06C51520 /* Pods_BreakRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADA58E6DABA0F276EDC1617 /* Pods_BreakRealm.framework */; };
+		D5610602F2831D4992E21516 /* Pods_BreakRealmUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87DC3C3F25DD9ED309584078 /* Pods_BreakRealmUITests.framework */; };
 		E3D9EFD31D315BFD005B16E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D9EFD21D315BFD005B16E1 /* AppDelegate.swift */; };
 		E3D9EFD51D315BFD005B16E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D9EFD41D315BFD005B16E1 /* ViewController.swift */; };
 		E3D9EFD81D315BFD005B16E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3D9EFD61D315BFD005B16E1 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		E3D9EFDD1D315BFD005B16E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3D9EFDB1D315BFD005B16E1 /* LaunchScreen.storyboard */; };
 		E3D9EFE81D315BFD005B16E1 /* BreakRealmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D9EFE71D315BFD005B16E1 /* BreakRealmTests.swift */; };
 		E3D9EFF31D315BFD005B16E1 /* BreakRealmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D9EFF21D315BFD005B16E1 /* BreakRealmUITests.swift */; };
+		F88115DB73A5D386806B7627 /* Pods_BreakRealmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C22E3D7C2930A6478F5C2518 /* Pods_BreakRealmTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16D2AA4725D2DFC46829CE07 /* Pods-BreakRealmUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreakRealmUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BreakRealmUITests/Pods-BreakRealmUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		22E4919E384F875B21441D49 /* Pods-BreakRealm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreakRealm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BreakRealm/Pods-BreakRealm.debug.xcconfig"; sourceTree = "<group>"; };
+		6A44496FE5A81C74A0AAEC1B /* Pods-BreakRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreakRealm.release.xcconfig"; path = "Pods/Target Support Files/Pods-BreakRealm/Pods-BreakRealm.release.xcconfig"; sourceTree = "<group>"; };
+		6ADA58E6DABA0F276EDC1617 /* Pods_BreakRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BreakRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87DC3C3F25DD9ED309584078 /* Pods_BreakRealmUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BreakRealmUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C22E3D7C2930A6478F5C2518 /* Pods_BreakRealmTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BreakRealmTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B6D27B5B7D1B67C315A488 /* Pods-BreakRealmUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreakRealmUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BreakRealmUITests/Pods-BreakRealmUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CF50DE91E0D2BFF26E9B4657 /* Pods-BreakRealmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreakRealmTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BreakRealmTests/Pods-BreakRealmTests.release.xcconfig"; sourceTree = "<group>"; };
 		E3D9EFCF1D315BFD005B16E1 /* BreakRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3D9EFD21D315BFD005B16E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3D9EFD41D315BFD005B16E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		E3D9EFEE1D315BFD005B16E1 /* BreakRealmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreakRealmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3D9EFF21D315BFD005B16E1 /* BreakRealmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakRealmUITests.swift; sourceTree = "<group>"; };
 		E3D9EFF41D315BFD005B16E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF446BEB5AA54F78F39051ED /* Pods-BreakRealmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreakRealmTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BreakRealmTests/Pods-BreakRealmTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C0909F3908067FE06C51520 /* Pods_BreakRealm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F88115DB73A5D386806B7627 /* Pods_BreakRealmTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5610602F2831D4992E21516 /* Pods_BreakRealmUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B243C0158E77D5319F44C64 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22E4919E384F875B21441D49 /* Pods-BreakRealm.debug.xcconfig */,
+				6A44496FE5A81C74A0AAEC1B /* Pods-BreakRealm.release.xcconfig */,
+				FF446BEB5AA54F78F39051ED /* Pods-BreakRealmTests.debug.xcconfig */,
+				CF50DE91E0D2BFF26E9B4657 /* Pods-BreakRealmTests.release.xcconfig */,
+				16D2AA4725D2DFC46829CE07 /* Pods-BreakRealmUITests.debug.xcconfig */,
+				C9B6D27B5B7D1B67C315A488 /* Pods-BreakRealmUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D29B2C8233ED8D31629487B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6ADA58E6DABA0F276EDC1617 /* Pods_BreakRealm.framework */,
+				C22E3D7C2930A6478F5C2518 /* Pods_BreakRealmTests.framework */,
+				87DC3C3F25DD9ED309584078 /* Pods_BreakRealmUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E3D9EFC61D315BFD005B16E1 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				E3D9EFE61D315BFD005B16E1 /* BreakRealmTests */,
 				E3D9EFF11D315BFD005B16E1 /* BreakRealmUITests */,
 				E3D9EFD01D315BFD005B16E1 /* Products */,
+				8B243C0158E77D5319F44C64 /* Pods */,
+				D29B2C8233ED8D31629487B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3D9EFF71D315BFD005B16E1 /* Build configuration list for PBXNativeTarget "BreakRealm" */;
 			buildPhases = (
+				734DD429618E15ABCD2CA818 /* [CP] Check Pods Manifest.lock */,
 				E3D9EFCB1D315BFD005B16E1 /* Sources */,
 				E3D9EFCC1D315BFD005B16E1 /* Frameworks */,
 				E3D9EFCD1D315BFD005B16E1 /* Resources */,
+				3CA1355581EC6E7F63DB6921 /* [CP] Embed Pods Frameworks */,
+				103AEB0CF88164210EEFC377 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3D9EFFA1D315BFD005B16E1 /* Build configuration list for PBXNativeTarget "BreakRealmTests" */;
 			buildPhases = (
+				B1510D21746DC90D523ACB3A /* [CP] Check Pods Manifest.lock */,
 				E3D9EFDF1D315BFD005B16E1 /* Sources */,
 				E3D9EFE01D315BFD005B16E1 /* Frameworks */,
 				E3D9EFE11D315BFD005B16E1 /* Resources */,
+				5B93FAEC1EB49D9A5775AF13 /* [CP] Embed Pods Frameworks */,
+				457ED37C3FAD19D00A7A439D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3D9EFFD1D315BFD005B16E1 /* Build configuration list for PBXNativeTarget "BreakRealmUITests" */;
 			buildPhases = (
+				A467F877FED17CD7B738D01A /* [CP] Check Pods Manifest.lock */,
 				E3D9EFEA1D315BFD005B16E1 /* Sources */,
 				E3D9EFEB1D315BFD005B16E1 /* Frameworks */,
 				E3D9EFEC1D315BFD005B16E1 /* Resources */,
+				27D3D994A5991960A4E5A1C4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +298,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		103AEB0CF88164210EEFC377 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BreakRealm/Pods-BreakRealm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27D3D994A5991960A4E5A1C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BreakRealmUITests/Pods-BreakRealmUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CA1355581EC6E7F63DB6921 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BreakRealm/Pods-BreakRealm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		457ED37C3FAD19D00A7A439D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BreakRealmTests/Pods-BreakRealmTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B93FAEC1EB49D9A5775AF13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BreakRealmTests/Pods-BreakRealmTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		734DD429618E15ABCD2CA818 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A467F877FED17CD7B738D01A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B1510D21746DC90D523ACB3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E3D9EFCB1D315BFD005B16E1 /* Sources */ = {
@@ -399,6 +570,7 @@
 		};
 		E3D9EFF81D315BFD005B16E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22E4919E384F875B21441D49 /* Pods-BreakRealm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BreakRealm/Info.plist;
@@ -410,6 +582,7 @@
 		};
 		E3D9EFF91D315BFD005B16E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A44496FE5A81C74A0AAEC1B /* Pods-BreakRealm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BreakRealm/Info.plist;
@@ -421,6 +594,7 @@
 		};
 		E3D9EFFB1D315BFD005B16E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF446BEB5AA54F78F39051ED /* Pods-BreakRealmTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BreakRealmTests/Info.plist;
@@ -433,6 +607,7 @@
 		};
 		E3D9EFFC1D315BFD005B16E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF50DE91E0D2BFF26E9B4657 /* Pods-BreakRealmTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BreakRealmTests/Info.plist;
@@ -445,6 +620,7 @@
 		};
 		E3D9EFFE1D315BFD005B16E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16D2AA4725D2DFC46829CE07 /* Pods-BreakRealmUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = BreakRealmUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -456,6 +632,7 @@
 		};
 		E3D9EFFF1D315BFD005B16E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9B6D27B5B7D1B67C315A488 /* Pods-BreakRealmUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = BreakRealmUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +661,7 @@
 				E3D9EFF91D315BFD005B16E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3D9EFFA1D315BFD005B16E1 /* Build configuration list for PBXNativeTarget "BreakRealmTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +670,7 @@
 				E3D9EFFC1D315BFD005B16E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3D9EFFD1D315BFD005B16E1 /* Build configuration list for PBXNativeTarget "BreakRealmUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +679,7 @@
 				E3D9EFFF1D315BFD005B16E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

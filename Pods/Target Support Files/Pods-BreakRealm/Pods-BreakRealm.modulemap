@@ -1,0 +1,6 @@
+framework module Pods_BreakRealm {
+  umbrella header "Pods-BreakRealm-umbrella.h"
+
+  export *
+  module * { export * }
+}
